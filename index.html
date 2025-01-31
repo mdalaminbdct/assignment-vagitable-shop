@@ -32,7 +32,82 @@
     </style>
 </head>
 <body class="font-sora">
-    <h1>Hello Bangladesh</h1>
-    
+    <!-- Header -->
+    <header class="bg-gradient-to-t from-[#EFEBE3] to-white">
+        <!-- ---navigation Section--- -->
+        <nav class="container mx-auto">
+            <div class="navbar justify-between">
+              <!-- Left: Logo -->
+              <div class="navbar-start">
+                <img src="c2-assets/logo-header.png" alt="Logo" />
+              </div>
+          
+              <!-- Center: Hidden on small screens -->
+              <div class="navbar-center hidden lg:flex">
+                <ul class="menu menu-horizontal px-1 text-2xl">
+                  <li><a>Product</a></li>
+                  <li><a>Service</a></li>
+                  <li><a>Contact us</a></li>
+                </ul>
+              </div>
+          
+              <!-- Right: Hamburger menu and other items -->
+              <div class="navbar-end space-x-4">
+                <!-- Hamburger for small screens -->
+                <div class="dropdown lg:hidden dropdown-end">
+                  <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor">
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                  </div>
+                  <ul
+                    tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                    <li><a>Product</a></li>
+                    <li><a>Service</a></li>
+                    <li><a>Contact us</a></li>
+                  </ul>
+                </div>
+                <div class="hidden lg:flex space-x-4 items-center ">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <a class="btn btn-outline border-green-500">Login</a>
+                <a class="btn bg-green-600 text-white">Register</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+        <!-- ---Banner Section--- -->
+         <section class="container mx-auto py-10 lg:py-16">
+        <!-- Banner Title -->
+         <div class="text-center space-y-6 mt-11">
+            <p class="font-semibold text-5xl">Freshness<span class="text-green-600">You Can <br>
+                Count</span> On, Prices You’ll Love!</p>
+            <p class="text-xl">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!
+            </p>
+         </div>
+         <!-- Bannner Img -->
+            <img src="c2-assets/hero-vegetables.png" alt="">     
+
+         </section>
+        
+    </header>
+
+
+
+
+
+
+
+     
 </body>
 </html>
